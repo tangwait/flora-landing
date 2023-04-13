@@ -11,6 +11,14 @@
  .box {
     display: flex;
     justify-content: center;
+    padding: 8px;
+    border: 2px;
+    border-style: solid;
+    margin: 16px;
+    height: 80px;
+    width: 80px;
+    border-color:blue;
+    
  }
  
  
@@ -53,7 +61,30 @@
    .header2 {
       display:flex;
       justify-content: center;
+   }
+
+   .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+   
+   }
+
+   .quote {
+      display: flex;
+      height: 400px;
+      background-color: gray;
+   }
    
    
+   .call {
+      display: flex;
+      height: 400px;
+   }
+   .footer {
+      line-height: 40px;
+      flex: 1;
+      background-color: gray;
+     
    }
    
