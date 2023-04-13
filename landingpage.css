@@ -24,4 +24,36 @@
   margin-right: 80px;
 
 }
- 
+
+.title{
+    background:gray;
+    padding-left: 64px;
+    padding-bottom:16px;
+    }
+   
+   
+   .whole {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      padding-right: 20px;
+   }
+   
+   
+   .right {
+      border: 1px;
+      background: darkgray;
+      width: 400px;
+      height: 150px;
+      margin-right: 80px;
+      margin-bottom: 50px;
+   }
+   
+   
+   .header2 {
+      display:flex;
+      justify-content: center;
+   
+   
+   }
+   
