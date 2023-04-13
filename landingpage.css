@@ -1,0 +1,26 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ .box {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ 
+ .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  padding-right: 20px;
+  background: gray;
+  margin-right: 80px;
+ }
+ 
