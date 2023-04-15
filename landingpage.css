@@ -1,90 +1,96 @@
 .body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
- }
+   height: 100vh;
+   margin: 0;
+   overflow: hidden;
+   font-family: Roboto, sans-serif;
+   display: flex;
+   flex-direction: column;
+}
  
  
- .box {
-    display: flex;
-    justify-content: center;
-    padding: 8px;
-    border: 2px;
-    border-style: solid;
-    margin: 16px;
-    height: 80px;
-    width: 80px;
-    border-color:blue;
-    
- }
+.box {
+   display: flex;
+   justify-content: center;
+   padding: 8px;
+   border: 2px;
+   border-style: solid;
+   margin: 16px;
+   height: 80px;
+   width: 80px;
+   border-color:blue;
+}
  
  
- .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
-  padding-right: 20px;
-  background: gray;
-  margin-right: 80px;
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px;
+   padding-right: 20px;
+   background: gray;
+   margin-right: 80px;
 
 }
 
+.logo {
+   display: flex;
+   border-style: solid;
+   margin: 16px;
+   height: 80px;
+   width: 80px;
+   border-color:blue;
+}
+
 .title{
-    background:gray;
-    padding-left: 64px;
-    padding-bottom:16px;
-    }
-   
-   
-   .whole {
-      display: flex;
-      justify-content: space-between;
-      padding: 8px;
-      padding-right: 20px;
-   }
-   
-   
-   .right {
-      border: 1px;
-      background: darkgray;
-      width: 400px;
-      height: 150px;
-      margin-right: 80px;
-      margin-bottom: 50px;
-   }
-   
-   
-   .header2 {
-      display:flex;
-      justify-content: center;
-   }
+   background:gray;
+   padding-left: 64px;
+   padding-bottom:16px;
+}
 
-   .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
    
-   }
+.whole {
+   display: flex;
+   justify-content: space-between;
+   padding: 8px;
+   padding-right: 20px;
+}
+   
+   
+.right {
+   border: 1px;
+   background: darkgray;
+   width: 400px;
+   height: 150px;
+   margin-right: 80px;
+   margin-bottom: 50px;
+}
+   
+   
+.header2 {
+   display:flex;
+   justify-content: center;
+}
 
-   .quote {
-      display: flex;
-      height: 400px;
-      background-color: gray;
-   }
+.container {
+   display: flex;
+   justify-content: center;
+   margin-top: 16px;
+}
+
+.quote {
+   display: flex;
+   height: 400px;
+   background-color: gray;
+}
    
    
-   .call {
-      display: flex;
-      height: 400px;
-   }
-   .footer {
-      line-height: 40px;
-      flex: 1;
-      background-color: gray;
-     
-   }
-   
+.call {
+   display: flex;
+   height: 400px;
+}
+
+.footer {
+   line-height: 40px;
+   flex: 1;
+   background-color: gray;
+}
