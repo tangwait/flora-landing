@@ -25,20 +25,24 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 8px;
+   padding: 16px;
    padding-right: 20px;
    background: gray;
    margin-right: 80px;
 
 }
 
+.links {
+   justify-content: space-between;
+}
+
 .logo {
-   display: flex;
-   border-style: solid;
-   margin: 16px;
-   height: 80px;
-   width: 80px;
-   border-color:blue;
+   background-image: url("/home/tangwai/flora-landing/img-sources/flora/flora_logo.jpg");
+   height: auto;
+   width: 100px;
+   background-size: contain;
+   background-position: center; 
+   background-repeat: no-repeat;
 }
 
 .title{
@@ -87,6 +91,7 @@
 .call {
    display: flex;
    height: 400px;
+
 }
 
 .footer {
