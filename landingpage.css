@@ -5,20 +5,20 @@
    font-family: Roboto, sans-serif;
    display: flex;
    flex-direction: column;
+   flex-shrink: 0;
+   
 }
  
 .header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-style:groove;
    padding: 8px;
    flex-shrink: 0;
 }
 .logo {
    display: flex;
    flex-grow: 1;
-   border-style: solid;
    max-width: fit-content;
    padding: 0;
 }
@@ -42,16 +42,25 @@
 .title{
    padding-left: 64px;
    background-image: url(img-sources/flora/background_smudged.jpg);
+   flex: 1 0 auto;
+   border-radius: 10px;
 }
 
-   
 .whole {
    display: flex;
    justify-content: space-between;
    padding: 8px;
    padding-right: 20px;
+   flex-shrink: 0;
 }
-   
+
+
+button {
+   font-family: inherit;
+   border: 0;
+   padding: 0;
+
+}
 .right {
    background-image: url(img-sources/flora/flora_laying.PNG);
    margin-right: 60px;
@@ -63,7 +72,6 @@
    background-repeat: no-repeat;
    display: flex;
    flex-shrink: 0;
-
 }
 
 .left {
@@ -73,10 +81,18 @@
    margin-right: 16px;
    margin-bottom: 16px;
 }
+
+.container_header2 {
+   background-image: url(img-sources/flora/cloud_background.png);
+   border-radius: 10px;
    
+}
 .header2 {
    display:flex;
    justify-content: center;
+   color: lightskyblue;
+   -webkit-text-stroke: .3px;
+   -webkit-text-stroke-color: black;
 }
 
 .container {
@@ -91,10 +107,11 @@
    display: flex;
    justify-content: center;
    padding: 16px;
-   margin: 16px;
+   margin: 32px;
    height: 200px;
    width: 150px;
    border-radius: 15px;
+   flex-shrink: 0;
 }
 
 .one {
@@ -121,18 +138,54 @@
 .quote {
    display: flex;
    height: 400px;
-   background-image: url(img-sources/flora/background_smudged.jpg)
+   background-image: url(img-sources/flora/background_smudged.jpg);
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
 }
    
    
 .call {
    display: flex;
    height: 400px;
+   color: lightskyblue;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   -webkit-text-stroke: .1px;
+   -webkit-text-stroke-color: black;
+   background-image: url(img-sources/flora/cloud_background.png);
+   border-radius: 10px;
+}
 
+.callgif {
+   background-image: url(img-sources/flora/flora_yawning.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   width: 250px;
+   height: 250px;
+   border-radius: 20px;
+   transform: scale(1);
 }
 
 .footer {
+   display: flex;
    line-height: 40px;
    flex: 1;
-   background-image: url(img-sources/flora/background_smudged.jpg)
+   padding-left: 20px;
+   background-image: url(img-sources/flora/background_smudged.jpg);
+   border-radius: 10px;
+}
+
+a {
+   text-decoration: none;
+   font-weight: bold;
+   background-color: white;
+   border-radius: 5px;
+   padding: 4px;
+   color: lightskyblue;
+   -webkit-text-stroke: .1px;
+   -webkit-text-stroke-color: black;
 }
