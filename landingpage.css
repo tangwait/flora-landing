@@ -7,48 +7,41 @@
    flex-direction: column;
 }
  
- 
-.box {
-   display: flex;
-   justify-content: center;
-   padding: 8px;
-   border: 2px;
-   border-style: solid;
-   margin: 16px;
-   height: 80px;
-   width: 80px;
-   border-color:blue;
-}
- 
- 
 .header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 16px;
-   padding-right: 20px;
-   background: gray;
-   margin-right: 80px;
+   border-style:groove;
+   padding: 8px;
+   flex-shrink: 0;
+}
+.logo {
+   display: flex;
+   flex-grow: 1;
+   border-style: solid;
+   max-width: fit-content;
+   padding: 0;
+}
 
+.paws {
+   display:flex;
+   flex: 2 0 auto;
+   justify-content: center;
 }
 
 .links {
-   justify-content: space-between;
+   display: flex;
+   justify-content:space-between;
+   flex: 1 0 auto;
+   max-width: 200px;
+   min-width: 200px;
+   margin-right: 60px;
 }
 
-.logo {
-   background-image: url("/home/tangwai/flora-landing/img-sources/flora/flora_logo.jpg");
-   height: auto;
-   width: 100px;
-   background-size: contain;
-   background-position: center; 
-   background-repeat: no-repeat;
-}
 
 .title{
-   background:gray;
    padding-left: 64px;
-   padding-bottom:16px;
+   background-image: url(img-sources/flora/background_smudged.jpg);
 }
 
    
@@ -59,16 +52,27 @@
    padding-right: 20px;
 }
    
-   
 .right {
-   border: 1px;
-   background: darkgray;
-   width: 400px;
-   height: 150px;
-   margin-right: 80px;
-   margin-bottom: 50px;
+   background-image: url(img-sources/flora/flora_laying.PNG);
+   margin-right: 60px;
+   border-radius: 15px 15px 25px 25px;
+   width: 250px;
+   height: 140px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-shrink: 0;
+
 }
-   
+
+.left {
+   display: flex;
+   flex-direction: column;
+   flex-shrink: 0;
+   margin-right: 16px;
+   margin-bottom: 16px;
+}
    
 .header2 {
    display:flex;
@@ -79,12 +83,45 @@
    display: flex;
    justify-content: center;
    margin-top: 16px;
+   flex-shrink: 0;
+
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   padding: 16px;
+   margin: 16px;
+   height: 200px;
+   width: 150px;
+   border-radius: 15px;
+}
+
+.one {
+   background-image: url(img-sources/flora/flora_standing.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.two {
+   background-image: url(img-sources/flora/flora_outside.JPG);
+   background-size: cover;
+   background-position: 50% 30%;
+   background-repeat: no-repeat;
+}
+
+.three {
+   background-image: url(img-sources/flora/flora_christmas_tree.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 .quote {
    display: flex;
    height: 400px;
-   background-color: gray;
+   background-image: url(img-sources/flora/background_smudged.jpg)
 }
    
    
@@ -97,5 +134,5 @@
 .footer {
    line-height: 40px;
    flex: 1;
-   background-color: gray;
+   background-image: url(img-sources/flora/background_smudged.jpg)
 }
